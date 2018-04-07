@@ -1,0 +1,33 @@
+/* add your CSS here */
+.animal-img{
+  width:300px;
+  height:200px;
+  padding : 0px 0px 20px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.outer-border{
+  padding: 1px 10px 10px 10px;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ddd;
+  border-style: solid;
+}
+
+.characteristics{
+  font-weight: bold;
+}
+#final-border{
+  width:400px;
+  padding:  15px 15px 15px 15px;
+  background-color: white;
+  box-shadow : 10px 10px 3px 2px rgba(230, 230, 230, 0.9);
+  border: 1px solid #ddd ;
+}
+.list1{
+  list-style: none;
+}
+#heading{
+  padding : 5px 5px 5px 5px;
+}

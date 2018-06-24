@@ -1,39 +1,54 @@
-body {
-  margin :0;
-  background:url('img1.jpg');
-  background-size: cover;
+.mast-head {
+  font-family: 'Lobster', cursive;
+  background-color: #eded12;
+  min-height: 300px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position:fixed;
-  top: 0;
-  width: 100%;
+#outer-border {
+  background-color: #eded12 !important;
 }
 
-.right {
-  float: right;
+#heading{
+  font-size: 40px;
 }
 
-.left {
-  float: left;
+#niche_text {
+    font-size: 20px;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding:14px 16px;
+#social-links {
+  padding: 60px 0px 20px 0px;
+  font-size: 6em;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+#social-links a {
+  color: inherit;
   text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  -mos-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+#social-links a:hover,
+#social-links a:focus {
+  font-size: 1.2em;
 }
 
-.active {
-  background-color: #4cAF50;}
+.monot{
+  font-family: 'Monoton', cursive;
+}
+
+.fab , .fa-twitter, .fa-linkedin, .fa-github {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 70px;
+  color: black;
+  position:relative;
+  display: inline-block;;
+  text-align: center;
+}

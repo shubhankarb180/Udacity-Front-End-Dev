@@ -1,0 +1,12 @@
+/* Override Bootstrap responsive settings for larger screens and constrain to 940px */
+@media (min-width: 980px) {
+  .navbar .container {
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 767px) {
+  #social-links div[class*='span'] {
+    padding-bottom: 40px;
+  }
+}

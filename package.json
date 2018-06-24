@@ -1,0 +1,24 @@
+{
+  "name": "udacity-front-end-dev",
+  "version": "1.0.0",
+  "description": "This is a directory for my assignment ",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhankarb180/Udacity-Front-End-Dev.git"
+  },
+  "author": "Shubhankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhankarb180/Udacity-Front-End-Dev/issues"
+  },
+  "homepage": "https://github.com/shubhankarb180/Udacity-Front-End-Dev#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

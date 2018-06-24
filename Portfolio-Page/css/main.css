@@ -1,6 +1,24 @@
 .container {
   margin-left: : 0 auto;
   margin-right: 0 auto;
+
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@@media screen and (min-width:0px) and (max-width:700px) {
+  #first{
+    order: 3;
+  }
+  #middle{
+    order: 2;
+  }
+  #last {
+    order: 1;
+  }
 }
 
 .mast-head {

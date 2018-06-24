@@ -1,0 +1,85 @@
+.container {
+  margin-left: : 0 auto;
+  margin-right: 0 auto;
+}
+
+.mast-head {
+  font-family: 'Lobster', cursive;
+  background-color: #eded12;
+  min-height: 300px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+#outer-border {
+  background-color: #eded12 !important;
+}
+
+#heading{
+  font-size: 40px;
+}
+
+#niche_text {
+    font-size: 20px;
+}
+
+.monot{
+  font-family: 'Monoton', cursive;
+}
+
+.fab , .fa-twitter, .fa-linkedin, .fa-github{
+  font-size: 70px;
+  color: black;
+
+}
+.col-xs-4 {
+  width:300px;
+}
+
+.smaller-image{
+  width: 25%;
+  height:25%;
+  border-radius: 50%;
+}
+
+.body_font{
+  font-family: 'Lobster',cursive;
+  padding:10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#p1, #p2, #p3, #p4 {
+  width:320px;
+  height: 200px;
+}
+
+.bckg {
+  background-color: #ffb252;
+}
+
+#mail1{
+  padding: 10px;
+  font-size: 25px;
+  color: grey;
+}
+
+.para{
+  font-family: 'Song Myung', serif;
+  font-size: 18px;
+}
+
+#contact {
+  padding-bottom: 20px;
+  background-color: #eded12;
+}
+
+#about{
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+footer {
+  padding-bottom: 40px;
+  background-color: #eded12 !important;
+}
